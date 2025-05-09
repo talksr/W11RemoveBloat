@@ -240,7 +240,14 @@ $WhitelistedApps = @(
     'Microsoft.MicrosoftEdge.Stable'
     'Microsoft.MPEG2VideoExtension', 
     'Microsoft.HEVCVideoExtension', 
-    'Microsoft.AV1VideoExtension'
+    'Microsoft.AV1VideoExtension',
+    'Microsoft.Office.OneNote',
+    'Microsoft.Office.Todo.List',
+    'Microsoft.OutlookForWindows',
+    'Microsoft.OfficeHub',
+    'Microsoft.MicrosoftOfficeHub',
+    'Microsoft.Office.Lens',
+
     
 )
 ##If $customwhitelist is set, split on the comma and add to whitelist
