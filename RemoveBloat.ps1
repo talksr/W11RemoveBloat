@@ -203,6 +203,7 @@ Start-Transcript -Path "C:\ProgramData\Debloat\Debloat.log"
 $WhitelistedApps = @(
     'Microsoft.WindowsNotepad',
     'Microsoft.CompanyPortal',
+    'Microsoft.OneDrive',
     'Microsoft.ScreenSketch',
     'Microsoft.Paint3D',
     'Microsoft.WindowsCalculator',
@@ -240,6 +241,7 @@ $WhitelistedApps = @(
     'Microsoft.MPEG2VideoExtension', 
     'Microsoft.HEVCVideoExtension', 
     'Microsoft.AV1VideoExtension'
+    
 )
 ##If $customwhitelist is set, split on the comma and add to whitelist
 if ($customwhitelist) {
