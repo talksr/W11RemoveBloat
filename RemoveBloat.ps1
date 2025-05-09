@@ -237,7 +237,7 @@ $WhitelistedApps = @(
     'Microsoft.Paint',
     'Microsoft.OutlookForWindows',
     'Microsoft.WindowsTerminal',
-    'Microsoft.MicrosoftEdge.Stable'
+    'Microsoft.MicrosoftEdge.Stable',
     'Microsoft.MPEG2VideoExtension', 
     'Microsoft.HEVCVideoExtension', 
     'Microsoft.AV1VideoExtension',
