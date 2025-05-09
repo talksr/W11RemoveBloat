@@ -2209,7 +2209,9 @@ $odtdestination = "C:\ProgramData\Debloat\setup.exe"
 Invoke-WebRequest -Uri $odturl -OutFile $odtdestination -Method Get -UseBasicParsing
 
 ##Run it
-Start-Process -FilePath "C:\ProgramData\Debloat\odt.exe" -ArgumentList "/configure C:\ProgramData\Debloat\o365.xml" -WindowStyle Hidden -Wait
+## Disabling for now to prevent Office uninstall
+##Start-Process -FilePath "C:\ProgramData\Debloat\odt.exe" -ArgumentList "/configure C:\ProgramData\Debloat\o365.xml" -WindowStyle Hidden -Wait
+##
 
 }
 else {
