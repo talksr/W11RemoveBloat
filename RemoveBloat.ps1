@@ -247,7 +247,7 @@ $WhitelistedApps = @(
     'Microsoft.OfficeHub',
     'Microsoft.MicrosoftOfficeHub',
     'Microsoft.Office.Lens',
-    'Microsoft.Office.Desktop',
+    'Microsoft.Office.Desktop'
 
     
 )
